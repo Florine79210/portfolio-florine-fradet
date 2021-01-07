@@ -33,8 +33,10 @@ h3 {
     font-size: 5rem;
     margin-top: 30px;
     position: absolute;
-    right: -122px;
-    bottom: 200px;
+    left: -122px;
+    /* bottom: 120px; */
+
+    /* ajuster la position a la fin */
 }
 
 /* <-- NAVBAR --> */
@@ -58,8 +60,8 @@ nav img {
 /* ACCUEIL */
 /* ================================================================= */
 
-#accueil {
-    background-image: url(/ressources/images/background-code.png);
+#accueil-a-propos {
+    background-image: url(../ressources/images/background-code.png);
     background-size: cover;
     background-position: center;
 }
