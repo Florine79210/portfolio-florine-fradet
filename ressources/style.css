@@ -29,14 +29,15 @@ h2 {
 }
 
 h3 {
-    transform: rotate(-90deg);
-    font-size: 5rem;
-    margin-top: 30px;
-    position: absolute;
-    left: -122px;
-    /* bottom: 120px; */
+    font-family: "Playball", Georgia, serif; 
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+}
 
-    /* ajuster la position a la fin */
+p {
+    font-family: "Lobster two", Georgia, serif;
+    color: #000000;
 }
 
 /* <-- NAVBAR --> */
@@ -60,7 +61,7 @@ nav img {
 /* ACCUEIL */
 /* ================================================================= */
 
-#accueil-a-propos {
+#accueil {
     background-image: url(../ressources/images/background-code.png);
     background-size: cover;
     background-position: center;
@@ -70,7 +71,26 @@ nav img {
 /* ================================================================= */
 
 #photo-portrait {
-    width: 15vw;
+    width: 10vw;
     border-radius: 100%;
-    border: outset #555555 6px;
+    border: outset #555555 3px;
+}
+
+.presentation p {
+    font-size: 25px;
+}
+
+.it {   /* <= a modiffier voir classe bootsrap*/
+    font-style: italic;
+    font-weight: initial;
+}
+
+.infos {
+    background-color: #ffffff;
+    border: outset #555555 3px;
+    border-radius: 10px;
+}
+
+.infos .card-header {
+    border-bottom: outset #555555 2px;
 }
