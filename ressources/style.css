@@ -132,6 +132,10 @@ nav img {
 /* COMPETENCES */
 /* ================================================================= */
 
+#competences p {
+    font-size: 30px;
+}
+
 .cadre-competences {
     border: outset #6c757d 2px;
 }
@@ -147,6 +151,12 @@ nav img {
     font-weight: bold;
 }
 
+.progress-bar {
+    animation: progress-bar-stripes 1.5s linear infinite;
+    animation-delay: 0s;
+    animation-direction: reverse;
+}
+
 /*<-- LANGAGES -->*/
 .progress-bar-html {
     background-color: #e44d26;
@@ -157,7 +167,7 @@ nav img {
 }
 
 .progress-bar-javascript {
-    background-color: #e7c830;
+    background-color: #cfad04;
 }
 
 .progress-bar-php {
@@ -184,4 +194,21 @@ nav img {
 
 .progress-bar-github {
     background-color: #1b1f23;
+}
+
+
+/* FOOTER */
+/* ================================================================= */
+
+footer {
+    height:15vh;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer span {
+    font-family: "Playball", Georgia, serif;
+    color: rgb(184, 3, 134);
 }
