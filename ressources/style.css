@@ -62,6 +62,7 @@ span {
 
 /* <-- NAVBAR --> */
 /* <-- =========================================================================================================================================================================================================== --> */
+
 nav img {
     width: 10vw;
 }
@@ -126,7 +127,86 @@ nav img {
     border-bottom: outset #6c757d 2px;
 }
 
+#a-propos .btn {
+    font-family: "Lobster two", Georgia, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:#f8f9fa;
+    background-color: rgb(184, 3, 134);
+    border: outset #f8f9fa 2px;
+}
 
+#a-propos .btn:hover {
+    color:rgb(184, 3, 134);
+    background-color:#f8f9fa;
+    border: outset rgb(184, 3, 134) 2px;
+    transform: scale(1.5);
+    transition: 1.2s;
+}
+
+
+/* PROJETS */
+/* ================================================================= */
+
+#projets .card {
+    border: outset #6c757d 3px;
+    border-radius: 10px;
+}
+
+#projets .card-header {
+    border-bottom: outset #6c757d 2px;
+}
+
+#projets .card-body {
+    border-bottom: outset #6c757d 2px;
+}
+
+.photo-projet-portfolio-2 {
+    height: 33vh;
+    background-image: url(../ressources/images/projets/portfolio-2.0.png);
+    background-size: cover;
+}
+
+.photo-projet-portfolio-1 {
+    height: 33vh;
+    background-image: url(../ressources/images/projets/portfolio-1.0.png);
+    background-size: cover;
+}
+
+.photo-projet-site-de-the {
+    height: 33vh;
+    background-image: url(../ressources/images/projets/site-de-the.png);
+    background-size: cover;
+}
+
+.photo-projet-kome-waza {
+    height: 33vh;
+    background-image: url(../ressources/images/projets/kome-waza.png);
+    background-size: cover;
+}
+
+.photo-projet-carte-de-visite {
+    height: 33vh;
+    background-image: url(../ressources/images/projets/carte-de-visite.png);
+    background-size: cover;
+}
+
+#projets .btn {
+    font-family: "Lobster two", Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: outset #6c757d 2px;
+}
+
+#projets .btn:hover {
+    transform: scale(1.2);
+    transition: 1.2s;
+}
+
+#projets .details {
+    font-size: 20px;
+    border: outset #f8f9fa 2px;
+}
 
 
 /* COMPETENCES */
@@ -197,6 +277,55 @@ nav img {
 }
 
 
+/* CONTACEZ-MOI */
+/* ================================================================= */
+
+.resaux a i {
+    color: rgb(184, 3, 134);
+    font-size: 80px;
+}
+
+.resaux a i:hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+    color: rgb(134, 4, 97)
+}
+
+
+.infos-contact ul {
+    height: 20vh;
+    width: 18vw;
+    border: #6c757d outset 2px;
+}
+
+.phone-mail a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.phone-mail i {
+    color: rgb(184, 3, 134);
+    font-size: 40px;
+}
+
+.phone-mail i:hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+    color: rgb(134, 4, 97)
+}
+
+.localisation i {
+    color: rgb(184, 3, 134);
+    font-size: 50px;
+}
+
+.localisation a i:hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+    color: rgb(134, 4, 97)
+}
+
+
 /* FOOTER */
 /* ================================================================= */
 
@@ -205,7 +334,7 @@ footer {
 }
 
 footer p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 footer span {

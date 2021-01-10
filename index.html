@@ -32,7 +32,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
             <div class="container-fluid">
 
-                <a href="#accueil"><img class="mr-auto" src="ressources/images/Logo@Ff.png"
+                <a href="#accueil"><img class="me-auto" src="ressources/images/Logo@Ff.png"
                         alt="Lien vers l'accueil"></a>
 
                 <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
@@ -42,7 +42,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
+                    <div class="navbar-nav text-center ms-auto">
                         <a class="nav-link text-light p-4" href="#a-propos">À propos</a>
                         <a class="nav-link text-light p-4" href="#projets">Projets</a>
                         <a class="nav-link text-light p-4" href="#competences">Compétences</a>
@@ -85,7 +85,7 @@
 
             <div class="row d-flex justify-content-center">
 
-                <div class="col-lg-6 offset-1 pt-4 text-center">
+                <div class="col-lg-6 offset-1 text-center">
                     <div class="row d-flex justify-content-center">
 
                         <div class="col-lg-3">
@@ -100,9 +100,11 @@
                                 Je prépare actuellement un titre professionnel développeur web / web mobile au centre de formation
                                 Arinfo, à Niort. "
                             </p>
-                        </div>
 
+                            <a class="btn w-50" href="ressources/docs/CV-Florine-FRADET.pdf" target="_blank">Télécharger mon CV</a>
+                        </div>
                     </div>
+
                 </div>
 
                 <div class="col-lg-4 offset-1">
@@ -142,40 +144,199 @@
                 </div>
             </div>
 
-            <div class="row d-flex justify-content-center"></div>
+            <div class="row d-flex justify-content-center">
             
+                <!-- Projet = Portfolio 2.0 -->
                 <div class="col-lg-4">
-                    <div class="card w-75 bg-light m-3 mes-projets">
+                    <div class="card w-75 m-3">
 
                         <div class="card-header bg-secondary text-light text-center">
                             <h5>Portfolio 2.0</h5>
                         </div>
 
-                        <div class="card-body pt-3 pr-4 pb-1 pl-4">
-                            <img src="ressources/images/projets/protfolio-2.0.png" alt="Photo de mon Portfolio 2.0"></a>
-                        </div>
+                        <div class="card-body photo-projet-portfolio-2"></div>
 
-                        <div class="card-footer text-center">
+                        <div class="card-footer bg-secondary">
                             
                             <div class="row justify-content-center">
                                 <div class="col-6 text-center">
-                                    <a class="btn btn-secondary text-light w-50 btns-voir" role="button" href="https://florine79210.github.io/portfolio-FF/.">
+                                    <a class="btn btn-light text-secondary w-50" role="button" href="https://florine79210.github.io/Portfolio-FF/">
                                     Voir
                                     </a>
                                 </div>
 
                                 <div class="col-6 text-center">
-                                    <button class="btn btn-light text-secondary w-50 btns-details" type="button" data-bs-toggle="collapse" data-bs-target="#details-projet" aria-expanded="false" aria-controls="details-projet">
+                                    <button class="btn btn-light text-secondary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#details-projet-portfolio-2" aria-expanded="false" aria-controls="details-projet-portfolio-2">
                                         Détails
                                     </button>
                                 </div>
                             </div>
 
-                            <div class="collapse" id="details-projet">
-                                <div class="card card-body">
+                            <div class="collapse" id="details-projet-portfolio-2">
+                                <div class="card card-body details">
                                     <p>Ce projet est la deuxième version de mon portfolio.<br>
-                                        Je l'ai réaliser dans le cadre de la formation de développeur web / web mobile que je suis actuellement.<br>
+                                        Je l'ai réalisé dans le cadre de la formation de développeur web / web mobile que je suis actuellement.<br>
                                         <span>Technologies utilisées:</span> Html, Css et Bootsrap.<br>
+                                        <span>Date de création:</span> Octobre 2020.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Projet = Portfolio 1.0 -->
+                <div class="col-lg-4">
+                    <div class="card w-75 m-3">
+
+                        <div class="card-header bg-secondary text-light text-center">
+                            <h5>Portfolio 1.0</h5>
+                        </div>
+
+                        <div class="card-body photo-projet-portfolio-1"></div>
+
+                        <div class="card-footer bg-secondary">
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-6 text-center">
+                                    <a class="btn btn-light text-secondary w-50" role="button" href="https://florine79210.github.io/portfolio-en-html-css/">
+                                    Voir
+                                    </a>
+                                </div>
+
+                                <div class="col-6 text-center">
+                                    <button class="btn btn-light text-secondary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#details-projet-portfolio-1" aria-expanded="false" aria-controls="details-projet-portfolio-1">
+                                        Détails
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="collapse" id="details-projet-portfolio-1">
+                                <div class="card card-body details">
+                                    <p>Ce projet est la première version de mon portfolio.<br>
+                                        Je l'ai réalisé dans le cadre de la formation de développeur web / web mobile que je suis actuellement.<br>
+                                        <span>Technologies utilisées:</span> Html et Css.<br>
+                                        <span>Date de création:</span> Octobre 2020.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Projet = Site de thé -->
+                <div class="col-lg-4">
+                    <div class="card w-75 m-3">
+
+                        <div class="card-header bg-secondary text-light text-center">
+                            <h5>Site de thé</h5>
+                        </div>
+
+                        <div class="card-body photo-projet-site-de-the"></div>
+
+                        <div class="card-footer bg-secondary">
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-6 text-center">
+                                    <a class="btn btn-light text-secondary w-50" role="button" href="https://florine79210.github.io/site-the/">
+                                    Voir
+                                    </a>
+                                </div>
+
+                                <div class="col-6 text-center">
+                                    <button class="btn btn-light text-secondary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#details-projet-site-de-the" aria-expanded="false" aria-controls="details-projet-site-de-the">
+                                        Détails
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="collapse" id="details-projet-site-de-the">
+                                <div class="card card-body details">
+                                    <p>Ce projet a été réalisé dans le cadre de la formation de développeur web / web mobile que je suis actuellement.<br>
+                                        Il s'agissait de reproduire la page web, en suivant un toriel vidéo.<br>
+                                        <span>Technologies utilisées:</span> Html et Css.<br>
+                                        <span>Date de création:</span> Octobre 2020.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Projet = Kome Waza -->
+                <div class="col-lg-4">
+                    <div class="card w-75 m-3">
+
+                        <div class="card-header bg-secondary text-light text-center">
+                            <h5>Kome Waza</h5>
+                        </div>
+
+                        <div class="card-body photo-projet-kome-waza"></div>
+
+                        <div class="card-footer bg-secondary">
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-6 text-center">
+                                    <a class="btn btn-light text-secondary w-50" role="button" href="https://florine79210.github.io/Kome-Waza/">
+                                    Voir
+                                    </a>
+                                </div>
+
+                                <div class="col-6 text-center">
+                                    <button class="btn btn-light text-secondary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#details-projet-kome-waza" aria-expanded="false" aria-controls="details-projet-kome-waza">
+                                        Détails
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="collapse" id="details-projet-kome-waza">
+                                <div class="card card-body details">
+                                    <p>Ce projet a été réalisé dans le cadre de la formation de développeur web / web mobile que je suis actuellement.<br>
+                                        Il s'agissait de reproduire la page web, à partir d'un document PDF.<br>
+                                        <span>Technologies utilisées:</span> Html et Css.<br>
+                                        <span>Date de création:</span> Octobre 2020.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Projet = Carte de visite -->
+                <div class="col-lg-4">
+                    <div class="card w-75 m-3">
+
+                        <div class="card-header bg-secondary text-light text-center">
+                            <h5>Carte de visite</h5>
+                        </div>
+
+                        <div class="card-body photo-projet-carte-de-visite"></div>
+
+                        <div class="card-footer bg-secondary">
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-6 text-center">
+                                    <a class="btn btn-light text-secondary w-50" role="button" href="https://florine79210.github.io/carte-de-visite-jhon-doe/">
+                                    Voir
+                                    </a>
+                                </div>
+
+                                <div class="col-6 text-center">
+                                    <button class="btn btn-light text-secondary w-50" type="button" data-bs-toggle="collapse" data-bs-target="#details-projet-carte-de-visite" aria-expanded="false" aria-controls="details-projet-carte-de-visite">
+                                        Détails
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="collapse" id="details-projet-carte-de-visite">
+                                <div class="card card-body details">
+                                    <p>Ce projet a été réalisé dans le cadre de la formation de développeur web / web mobile que je suis actuellement.<br>
+                                        Il s'agissait de reproduire une carte de visite, à partir d'instructions précises.<br>
+                                        <span>Technologies utilisées:</span> Html et Css.<br>
                                         <span>Date de création:</span> Octobre 2020.
                                     </p>
                                 </div>
@@ -187,109 +348,13 @@
 
             </div>
 
-                <!-- <div class="row d-flex justify-content-center mt-3 mb-5">
-
-                    <div class="col-sm-5 col-md-3 m-3 p-3 projet">
-
-                        <p>Barre de navigation Flooop</p>
-                        <a href="https://florine79210.github.io/Flooop/."><img class="img-flooop mb-3" src="images/photos-de-projets/flooop.png" alt="logo de Flooop"></a>
-
-                        <div class="row competences-projet">
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
-                            </div>
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-5 col-md-3 m-3 p-3 projet">
-
-                        <p>Carte de visite de John DOE</p>
-                        <a href="https://florine79210.github.io/carte-de-visite-jhon-doe/."><img class="mb-3" src="images/photos-de-projets/carte-de-visite.png" alt="photo de le carte de visite"></a>
-
-                        <div class="row competences-projet">
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
-                            </div>
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-5 col-md-3 m-3 p-3 projet">
-
-                        <p>Site de Kome Waza</p>
-                        <a href="https://florine79210.github.io/Kome-Waza/."><img class="mb-3" src="images/photos-de-projets/logo-kome-waza.jpg" alt="logo de Kome Waza"></a>
-
-                        <div class="row competences-projet">
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
-                            </div>
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row d-flex justify-content-center mt-3 mb-5">
-
-                    <div class="col-sm-5 col-md-3 m-3 p-3 projet">
-
-                        <p>Site de thé</p>
-                        <a href="https://florine79210.github.io/site-the/."><img class="mb-3" src="images/photos-de-projets/thé.png" alt="photo de thé"></a>
-
-                        <div class="row competences-projet">
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
-                            </div>
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-5 col-md-3 m-3 p-3 projet">
-
-                        <p>Portefolio n°1</p>
-                        <a href="https://florine79210.github.io/portfolio-en-html-css/."><img class="mb-3" src="images/photos-de-projets/logo-portfolio1.png" alt="logo Ff"></a>
-
-                        <div class="row competences-projet">
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
-                            </div>
-
-                            <div class="col-md-6">
-                                <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
-                            </div>
-
-                        </div>
-                    </div> -->
-
         </div>
 
 
         <!-- COMPETENCES -->
 <!-- ================================================================================================================================================================================================================== -->
 
-        <div id="competences" class="container-fluid pt-4 pb-4 bg-light">
+        <div id="competences" class="container-fluid pt-5 pb-4 bg-light">
 
             <div class="row mt-3 mb-5 pt-2 pb-3 justify-content-center">
                 <div class="col-3 text-center">
@@ -307,16 +372,16 @@
             <!-- LANGAGES -->
             <div class="container mb-5 cadre-competences">
 
-                <div class="row bg-secondary text-light pt-1 pb-1 d-flex justify-content-center intitule-competence">
+                <div class="row bg-secondary text-light pt-1 pb-1 d-flex text-center intitule-competence">
                     <h4>Langages</h4>
                 </div>
 
-                <div class="row pt-3 pb-3 d-flex justify-content-center">
+                <div class="row bg-light pt-3 pb-3 d-flex justify-content-center">
                     <div class="col-md-4 pt-3 pb-3 text-center">
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/html5.png" alt="Logo HTML5">
                     
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-html" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                             </div>
                         </div>
@@ -326,7 +391,7 @@
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/css3.png" alt="Logo CSS3">
                     
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-css" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                             </div>
                         </div>
@@ -336,7 +401,7 @@
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/javascript.png" alt="Logo JavaScript">
                     
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-javascript" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
                             </div>
                         </div>
@@ -346,7 +411,7 @@
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/php.png" alt="Logo PHP">
                     
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-php" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
                             </div>
                         </div>
@@ -356,7 +421,7 @@
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/mysql.png" alt="Logo MySql">
                     
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-mysql" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
                             </div>
                         </div>
@@ -368,16 +433,16 @@
             <!-- FRAMEWORKS -->
             <div class="container mb-5 cadre-competences">
 
-                <div class="row bg-secondary text-light pt-1 pb-1 d-flex justify-content-center intitule-competence">
+                <div class="row bg-secondary text-light pt-1 pb-1 d-flex text-center intitule-competence">
                     <h4>Frameworks</h4>
                 </div>
 
-                <div class="row pt-3 pb-3 d-flex justify-content-center">
+                <div class="row bg-light pt-3 pb-3 d-flex justify-content-center">
                     <div class="col-md-4 pt-3 pb-3 text-center">
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/bootsrap.png" alt="Logo Bootsrap">
                     
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-bootsrap" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                             </div>
                         </div>
@@ -387,7 +452,7 @@
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/laravel.png" alt="Logo Laravel">
                     
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-laravel" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
                             </div>
                         </div>
@@ -398,16 +463,16 @@
             <!-- OUTILS -->
             <div class="container mb-5 cadre-competences">
 
-                <div class="row bg-secondary text-light pt-1 pb-1 d-flex justify-content-center intitule-competence">
+                <div class="row bg-secondary text-light pt-1 pb-1 d-flex text-center intitule-competence">
                     <h4>Outils</h4>
                 </div>
 
-                <div class="row pt-3 pb-3 d-flex justify-content-center">
+                <div class="row bg-light pt-3 pb-3 d-flex justify-content-center">
                     <div class="col-md-4 pt-3 pb-3 text-center">
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/git.png" alt="Logo Git">
                     
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-git" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                             </div>
                         </div>
@@ -417,7 +482,7 @@
                         <img class="w-50 pb-2 logos-competences" src="ressources/images/logos/github.png" alt="Logo Github">
                         
                         <div class="row justify-content-center">
-                            <div class="w-75 progress">
+                            <div class="w-75 p-0 bg-light progress">
                                 <div class="progress-bar progress-bar-striped progress-bar-github" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                             </div>
                         </div>
@@ -439,39 +504,35 @@
                 </div>
             </div>
 
-                        <!-- <div class="row mt-3 mb-5">
+            <div class="row mt-3 mb-5 justify-content-center">
 
-                            <div class="col-md-4 resaux mt-3 mb-3">
-                                <a href="https://www.facebook.com" alt="lien vers facebook.com"><i class="fab fa-facebook-square"></i></a>
-                            </div>
+                <div class="col-md-3 mt-3 mb-3 text-center resaux">
+                    <a href="https://fr.linkedin.com/in/florine-fradet-09b5b0203" alt="lien vers linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                </div>
 
-                            <div class="col-md-4 resaux mt-3 mb-3">
-                                <a href="https://www.twitter.com" alt="lien vers twitter.com"><i class="fab fa-twitter-square"></i></a>
-                            </div>
+                <div class="col-md-3 mt-3 mb-3 text-center resaux">
+                    <a href="https://github.com/Florine79210/" alt="lien vers linkedin.com"><i class="fab fa-github"></i></a>
+                </div>
 
-                            <div class="col-md-4 resaux mt-3 mb-3">
-                                <a href="https://www.linkedin.com" alt="lien vers linkedin.com"><i class="fab fa-linkedin"></i></a>
-                            </div>
+            </div>
 
-                        </div>
+            <div class="row mb-5 justify-content-center infos-contact">
 
-                        <div class="row infos-contact mb-5">
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <ul class="pt-4 text-center phone-mail">
+                        <li class="mb-4"><a href="mailto:flo.fradet@gmail.com"><i class="far fa-envelope"></i> : flo.fradet@gmail.com</a></li>
+                        <li><a href="tel:+330640727274"><i class="fas fa-phone-volume"></i> : 06 40 72 72 74</a></li>
+                    </ul>
+                </div>
 
-                            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
-                                <ul class="phone-mail pt-4">
-                                    <li><i class="far fa-envelope mb-3"></i> : flo.fradet@gmail.com</li>
-                                    <li><i class="fas fa-phone-volume"></i> : 06 40 72 72 74</li>
-                                </ul>
-                            </div>
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <ul class="pt-5 text-center localisation">
+                        <li>Je suis ici.</li>
+                        <li><a href="https://goo.gl/maps/7fdGhY1yfybzzvB9A"><i class="fas fa-map-marked-alt"></i></a></li>
+                    </ul>
+                </div>
 
-                            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
-                                <ul class="localisation pt-4">
-                                    <li>Je suis ici.</li>
-                                    <li><a href="https://goo.gl/maps/7fdGhY1yfybzzvB9A"><i class="fas fa-map-marked-alt"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div> -->
+            </div>
 
         </div>
 
