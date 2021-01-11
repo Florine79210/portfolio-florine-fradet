@@ -377,3 +377,62 @@ footer span {
     font-family: "Playball", Georgia, serif;
     color: rgb(184, 3, 134);
 }
+
+
+/* MEDIA QUERIES */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 575.98px) {
+
+    nav img {
+        width: 25vw;
+    }
+    
+    #photo-portrait {
+        width: 30vw;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    #photo-portrait {
+        width: 30vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+    nav img {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .navbar-nav a {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    #photo-portrait {
+        width: 20vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    nav img {
+        width: 15vw;
+    }
+    
+    #photo-portrait {
+        width: 15vw;
+    }
+}
