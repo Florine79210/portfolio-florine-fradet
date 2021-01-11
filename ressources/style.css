@@ -85,11 +85,43 @@ nav img {
 #accueil {
     background-image: url(../ressources/images/my-code.png);
     background-size: cover;
-    border-bottom: solid #6c757d 2px;
+    border-bottom: solid #6c757d 3px;
 }
 
 .titre-accueil {
     background-color: rgba(241, 241, 241, 0.6);
+}
+
+/* RECHERCHE DE STAGE */
+/* ================================================================= */
+
+#recherche-stage {
+    border-bottom: solid #6c757d 3px;
+}
+
+#recherche-stage i {
+    font-size: 50px;
+}
+
+#recherche-stage p {
+    font-size: 25px;
+}
+
+#recherche-stage .btn {
+    font-family: "Lobster two", Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#f8f9fa;
+    background-color: rgb(184, 3, 134);
+    border: outset #f8f9fa 2px;
+}
+
+#recherche-stage .btn:hover {
+    color:rgb(184, 3, 134);
+    background-color:#f8f9fa;
+    border: outset rgb(184, 3, 134) 2px;
+    transform: scale(1.5);
+    transition: 1.2s;
 }
 
 /* A PROPOS */
@@ -222,6 +254,10 @@ nav img {
 
 .intitule-competence {
     border-bottom: outset #6c757d 2px;
+}
+
+.logos-competences {
+    width: 150px;
 }
 
 .progress {
