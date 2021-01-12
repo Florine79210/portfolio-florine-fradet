@@ -200,15 +200,15 @@ nav img {
 }
 
 .photo-projet-show-me {
-    background-image: url(../ressources/images/projets/portfolio-2.0.png);  /* a modifier */
+    background-image: url(../ressources/images/projets/show-me.png);
 }
 
 .photo-projet-la-bonne-chaise-2 {
-    background-image: url(../ressources/images/projets/portfolio-2.0.png);   /* a modifier */
+    background-image: url(../ressources/images/projets/la-bonne-chaise-2.0.png);
 }
 
 .photo-projet-la-bonne-chaise {
-    background-image: url(../ressources/images/projets/portfolio-2.0.png);  /* a modifier */
+    background-image: url(../ressources/images/projets/la-bonne-chaise.png);
 }
 
 .photo-projet-portfolio-2 {
@@ -219,8 +219,8 @@ nav img {
     background-image: url(../ressources/images/projets/portfolio-1.0.png);
 }
 
-.photo-projet-site-de-the {
-    background-image: url(../ressources/images/projets/site-de-the.png);
+.photo-projet-art-du-the {
+    background-image: url(../ressources/images/projets/art-du-the.png);
 }
 
 .photo-projet-kome-waza {
