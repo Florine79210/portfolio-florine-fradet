@@ -193,6 +193,24 @@ nav img {
     border-bottom: outset #6c757d 2px;
 }
 
+.photo-projet-show-me {
+    height: 33vh;
+    background-image: url(../ressources/images/projets/portfolio-2.0.png);  /* a modifier */
+    background-size: cover;
+}
+
+.photo-projet-la-bonne-chaise-2 {
+    height: 33vh;
+    background-image: url(../ressources/images/projets/portfolio-2.0.png);   /* a modifier */
+    background-size: cover;
+}
+
+.photo-projet-la-bonne-chaise {
+    height: 33vh;
+    background-image: url(../ressources/images/projets/portfolio-2.0.png);  /* a modifier */
+    background-size: cover;
+}
+
 .photo-projet-portfolio-2 {
     height: 33vh;
     background-image: url(../ressources/images/projets/portfolio-2.0.png);
