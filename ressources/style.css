@@ -193,52 +193,42 @@ nav img {
     border-bottom: outset #6c757d 2px;
 }
 
-.photo-projet-show-me {
+.photos-projets {
     height: 33vh;
-    background-image: url(../ressources/images/projets/portfolio-2.0.png);  /* a modifier */
     background-size: cover;
+    background-position: center;
+}
+
+.photo-projet-show-me {
+    background-image: url(../ressources/images/projets/portfolio-2.0.png);  /* a modifier */
 }
 
 .photo-projet-la-bonne-chaise-2 {
-    height: 33vh;
     background-image: url(../ressources/images/projets/portfolio-2.0.png);   /* a modifier */
-    background-size: cover;
 }
 
 .photo-projet-la-bonne-chaise {
-    height: 33vh;
     background-image: url(../ressources/images/projets/portfolio-2.0.png);  /* a modifier */
-    background-size: cover;
 }
 
 .photo-projet-portfolio-2 {
-    height: 33vh;
     background-image: url(../ressources/images/projets/portfolio-2.0.png);
-    background-size: cover;
 }
 
 .photo-projet-portfolio-1 {
-    height: 33vh;
     background-image: url(../ressources/images/projets/portfolio-1.0.png);
-    background-size: cover;
 }
 
 .photo-projet-site-de-the {
-    height: 33vh;
     background-image: url(../ressources/images/projets/site-de-the.png);
-    background-size: cover;
 }
 
 .photo-projet-kome-waza {
-    height: 33vh;
     background-image: url(../ressources/images/projets/kome-waza.png);
-    background-size: cover;
 }
 
 .photo-projet-carte-de-visite {
-    height: 33vh;
     background-image: url(../ressources/images/projets/carte-de-visite.png);
-    background-size: cover;
 }
 
 #projets .btn {
