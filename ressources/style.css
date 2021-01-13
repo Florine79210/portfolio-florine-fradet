@@ -298,8 +298,8 @@ nav img {
     background-color: #505e9b;
 }
 
-.progress-bar-mysql {
-    background-color: #e48c04;
+.progress-bar-sql {
+    background-color: #0e3472;
 }
 
 /*<-- FRAMEWORKS -->*/
@@ -318,6 +318,10 @@ nav img {
 
 .progress-bar-github {
     background-color: #1b1f23;
+}
+
+.progress-bar-mysql {
+    background-color: #e48c04;
 }
 
 
