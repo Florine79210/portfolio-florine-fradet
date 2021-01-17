@@ -328,12 +328,12 @@ nav img {
 /* CONTACEZ-MOI */
 /* ================================================================= */
 
-.resaux a i {
+.reseaux a i {
     color: rgb(184, 3, 134);
     font-size: 80px;
 }
 
-.resaux a i:hover {
+.reseaux a i:hover {
     transform: scale(1.2);
     transition: 1.5s;
     color: rgb(134, 4, 97)
