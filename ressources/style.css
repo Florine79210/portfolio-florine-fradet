@@ -336,7 +336,7 @@ nav img {
 .reseaux a i:hover {
     transform: scale(1.2);
     transition: 1.5s;
-    color: rgb(134, 4, 97)
+    color: rgb(134, 4, 97);
 }
 
 
@@ -359,7 +359,7 @@ nav img {
 .phone-mail i:hover {
     transform: scale(1.2);
     transition: 1.5s;
-    color: rgb(134, 4, 97)
+    color: rgb(134, 4, 97);
 }
 
 .localisation i {
@@ -370,7 +370,7 @@ nav img {
 .localisation a i:hover {
     transform: scale(1.2);
     transition: 1.5s;
-    color: rgb(134, 4, 97)
+    color: rgb(134, 4, 97);
 }
 
 
